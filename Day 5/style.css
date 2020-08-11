@@ -7,12 +7,16 @@ body {
 .intro {
   background-color: #23424a;
   color: #fff;
-  padding: 9em 7em;
+  padding: 5rem 0;
 }
 
 .content {
   width: 80%;
-  max-width: 750px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.intro__text {
+  width: 60%;
 }
 .intro__title {
   font-size: 3rem;
@@ -40,14 +44,4 @@ body {
 }
 .intro__link:active {
   transform: scale(0.975);
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-  .intro {
-    padding: 3em;
-  }
-}
-@media (min-width: 320px) and (max-width: 480px) {
-  .intro {
-    padding: 2em 1em;
-  }
 }
