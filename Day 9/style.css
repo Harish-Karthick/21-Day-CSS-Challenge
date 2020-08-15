@@ -95,10 +95,10 @@ h1 {
   margin-top: 3em;
 }
 .about-info {
-  flex: 0 0 62%;
+  width: 62%;
 }
 .about-features {
-  flex: 0 0 32%;
+  width: 32%;
   text-align: center;
   color: #fff;
   background-color: #136c72;
