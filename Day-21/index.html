@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conquering Responsive Layouts</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container row">
+        <button class="nav-toggle" aria-label="open navigation">
+          <span class="hamburger"></span>
+        </button>
+        <a class="logo" href="#">
+          <img src="img/logo.svg" alt="conquering responsive layouts" />
+        </a>
+        <nav class="nav">
+          <ul class="nav__list nav__list--primary">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+          </ul>
+          <ul class="nav__list nav__list--secondary">
+            <li class="nav__item"><a href="#" class="nav__link">Sign In</a></li>
+            <li class="nav__item">
+              <a href="#" class="nav__link nav__link--button">Sign up</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero__section">
+        <div class="container row">
+          <h1 class="hero__title">
+            <span class="hero__title--white">Responsive Layouts</span>
+            <span class="hero__title--brown">don't have to be a struggle</span>
+          </h1>
+          <div class="hero__textcontent">
+            <h3 class="hero__subtext">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              officiis et non omnis eligendi amet iure mollitia quae ipsa
+              corporis!
+            </h3>
+            <a class="btn hero__btn" href="#">I want to learn</a>
+          </div>
+        </div>
+      </section>
+      <section class="features__section">
+        <div class="container row">
+          <article class="col">
+            <h3 class="feature__title">Mobile-first</h3>
+            <p class="feature__desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor
+              sunt vel quibusdam laborum id impedit aliquid nesciunt amet,
+              consectetur sit!
+            </p>
+          </article>
+          <article class="col">
+            <h3 class="feature__title">Efficient</h3>
+            <p class="feature__desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor
+              sunt vel quibusdam laborum id impedit aliquid nesciunt amet,
+              consectetur sit!
+            </p>
+          </article>
+          <article class="col">
+            <h3 class="feature__title">Done Right</h3>
+            <p class="feature__desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor
+              sunt vel quibusdam laborum id impedit aliquid nesciunt amet,
+              consectetur sit!
+            </p>
+          </article>
+        </div>
+      </section>
+      <main class="main__section">
+        <div class="container row">
+          <section class="main__content col">
+            <h2 class="main__title">It doesn't have to be hard</h2>
+            <p class="main__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+              dignissimos, ducimus, dolor accusantium earum mollitia, animi
+              officia non eius at veritatis adipisci ratione blanditiis
+              accusamus saepe iusto consequuntur recusandae sequi! Facere,
+              fugiat. Dolor nam eveniet ut laudantium esse quaerat non?
+            </p>
+            <img
+              src="img/hero-image.jpg"
+              alt="easy responsive development"
+              class="main__image"
+            />
+            <p class="main__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni
+              veritatis iusto accusantium aperiam? Architecto, quidem alias
+              saepe dicta et fugit! Nemo illum perspiciatis dignissimos debitis
+              facere saepe similique id quam.
+            </p>
+          </section>
+          <aside class="main__aside col">
+            <article class="main__article col">
+              <h4 class="article__title">Break it down</h4>
+              <p class="article__subtext">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                voluptatum alias voluptatem debitis, consequuntur accusantium!
+                Consectetur iste porro ipsam aperiam.
+              </p>
+            </article>
+            <article class="main__article">
+              <h4 class="article__title">Work your way up</h4>
+              <p class="article__subtext">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Dolorum repudiandae illum earum quisquam quod quos numquam at
+                dolor fugit eligendi.
+              </p>
+            </article>
+            <article class="main__article">
+              <h4 class="article__title">It is simple</h4>
+              <p class="article__subtext">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus ex ducimus fugiat tempore repellendus consequatur
+                eaque saepe quam fuga magnam.
+              </p>
+            </article>
+          </aside>
+        </div>
+      </main>
+      <footer class="footer__section">
+        <div class="container">
+          <h2 class="footer__title">Just scratching the surface</h2>
+          <div class="row">
+            <div class="footer__text col">
+              <h4 class="footer__subtitle">About Our Company</h4>
+              <p class="footer__subtext">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Facere, eaque illum. Pariatur sunt, porro voluptatem
+                perspiciatis corporis perferendis quibusdam assumenda.
+              </p>
+            </div>
+            <div class="col footer__navlinkcontainer">
+              <nav class="footer__navbar">
+                <h4 class="footer__subtitle">Getting Started</h4>
+                <ul class="footer__navlist">
+                  <li class="footer__navitem">
+                    <a class="footer__navlink" href="#"> Home </a>
+                  </li>
+                  <li class="footer__navitem">
+                    <a class="footer__navlink" href="#"> About </a>
+                  </li>
+                  <li class="footer__navitem">
+                    <a class="footer__navlink" href="#"> Contact </a>
+                  </li>
+                </ul>
+              </nav>
+              <nav class="footer__navbar">
+                <h4 class="footer__subtitle">Other Things</h4>
+                <ul class="footer__navlist">
+                  <li class="footer__navitem">
+                    <a class="footer__navlink" href="#">Lorem</a>
+                  </li>
+                  <li class="footer__navitem">
+                    <a class="footer__navlink" href="#">Ipsum</a>
+                  </li>
+                  <li class="footer__navitem">
+                    <a class="footer__navlink" href="#">Bacon</a>
+                  </li>
+                  <li class="footer__navitem">
+                    <a class="footer__navlink" href="#">Cheese</a>
+                  </li>
+                </ul>
+              </nav>
+              <nav class="footer__navbar">
+                <h4 class="footer__subtitle">and more</h4>
+                <ul class="footer__navlist">
+                  <li class="footer__navitem">
+                    <a class="footer__navlink" href="#">Eggs</a>
+                  </li>
+                  <li class="footer__navitem">
+                    <a class="footer__navlink" href="#">Waffles</a>
+                  </li>
+                  <li class="footer__navitem">
+                    <a class="footer__navlink" href="#">Cream</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
